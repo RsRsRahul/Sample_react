@@ -1,0 +1,10 @@
+table,th,td{
+    border :1px solid;
+}
+.nonne{
+    display: none;
+}
+.theme:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
