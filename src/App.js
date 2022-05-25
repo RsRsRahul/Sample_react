@@ -37,7 +37,8 @@
 const samplefunc=()=>{
   return<div> 
     <h1>hello</h1>
-    <p>test func</p>    {/* <p>{test("rahul")}</p> */}
+    <p>test func</p>    
+    <p>{test("rahul")}</p>
     <Student name="rahul" age={22}/>
     </div> ;
 }
