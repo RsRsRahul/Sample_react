@@ -23,7 +23,7 @@ const App = () => {
     }
     function satData(e){
         const result=Data.filter((res)=>{
-        return res.name.toLowerCase().includes(e.toLowerCase().trim())
+        return res.name.toLowerCase().includes(e.toLowerCase().trim()) 
     })
     setitem(result)
     }
@@ -34,7 +34,7 @@ const App = () => {
     if(isDarkTheme){text="Dark Theme"}
     else{text="Light Theme"}
   return (
-    <div style={{
+    <div className='main' style={{
         backgroundColor : !isDarkTheme ? "black" : "white",
         color : !isDarkTheme?"white":"black"
     }}> Counter : {++count}
